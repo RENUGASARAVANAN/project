@@ -134,7 +134,7 @@ print(classLabels)
 print(len(classLabels))
 
 # Display the image using imshow()
-img=cv2.imread('panda.jpeg')
+img=cv2.imread('train.jpeg')
 plt.imshow(img)
 
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
@@ -170,7 +170,8 @@ plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 
 
 ## III)Perform object detection with label in an image:
-![Screenshot 2024-11-15 092513](https://github.com/user-attachments/assets/00144e2b-2a99-484a-ad26-cdd5ba1c30eb)
+
+![Screenshot 2024-11-24 152656](https://github.com/user-attachments/assets/71d74cc1-669f-459a-a234-f009ba665415)
 
 ## Result :
 Thus a python program using OpenCV is written to do the following image manipulations:
